@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #3b82f6;
+    --bg-main: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-main: #1e293b;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-main: #0f172a;
+        --card-bg: #1e293b;
+        --text-main: #f1f5f9;
+    }
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+.app-card {
+    background-color: var(--card-bg);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.primary-border {
+    border-color: var(--primary-color);
+}
